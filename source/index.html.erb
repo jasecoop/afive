@@ -1,8 +1,9 @@
 ---
 title: Afive
 ---
-
-<div class="logo"></div>
+<script type="text/javascript">
+ $('#myModal').modal()
+</script>
 
 <div class="intro">
 
@@ -23,3 +24,23 @@ title: Afive
   <textarea id="main" style="display: none;"></textarea>
 
 </form>
+
+<a href="#myModal" role="button" class="logo" data-toggle="modal"></a>
+
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  
+  <div class="modal-body">
+  
+    <p>a5 is a tiny, little web thing built by <a href="http://twitter.com/jasecoop">Jason Cooper</a>.</p>
+
+    <p>I use it to help me remember things I'd most likely forget when browsing the web.</p>
+
+    <p>Hopefully you find it useful too.</p>
+
+    <p>— Jase</p>
+  
+  </div>
+
+</div>
