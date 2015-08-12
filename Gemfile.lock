@@ -118,5 +118,4 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (>= 2.1.0.0)
-  i18n (= 0.7.0)
   middleman
