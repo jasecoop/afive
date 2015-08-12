@@ -2,7 +2,7 @@ var introNeed = function(){
 
   $('textarea#main').fadeIn();
   var text = $('textarea#main').val();
-  
+
   if(text == ''){
 
     $('.intro').fadeIn();
